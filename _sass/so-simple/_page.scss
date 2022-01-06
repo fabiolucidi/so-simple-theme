@@ -72,7 +72,8 @@
   .page-date,
   .read-time {
     font-family: $meta-font-family;
-    font-style: italic;
+    color: $fabio-red;
+    /* font-style: italic; */
     white-space: nowrap;
   }
 
