@@ -72,14 +72,15 @@
   .page-date,
   .read-time {
     font-family: $meta-font-family;
-    text-decoration-color: $fabio-red;
-    /* font-style: italic; */
+    color: $fabio-red;
+    font-style: normal;
     white-space: nowrap;
   }
 
   .read-time {
     @include breakpoint($large) {
       display: block;
+      color: $fabio-red;
     }
   }
 
