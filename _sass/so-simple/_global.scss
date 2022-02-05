@@ -21,15 +21,15 @@
 }
 
 .site-nav {
-  display: none;
+
   margin-bottom: 1em;
   text-align: center;
   font-family: $description-font-family;
 
   ul {
     display: block;
-    margin: 0.25;
-    padding: 0.25em 0.25em;
+    margin: 0.1;
+    padding: 0.2em 0.2em;
     list-style: none;
 
     @include breakpoint($medium) {
@@ -39,16 +39,14 @@
 
   li {
     display: inline-block;
-    font-size: 0.75rem;
+    font-size: 1rem;
   }
 
   a {
     display: block;
-    padding: 0.5em 0.75em;
-    text-transform: uppercase;
+    padding: 0.5em 0.5em;
     text-decoration: none;
-    border: 1px solid;
-    border-radius: $border-radius;
+    color: #c40000;
   }
 
   @include breakpoint($medium) {
@@ -83,7 +81,7 @@
   margin-bottom: 1em;
   font-family: $description-font-family;
   @include fluid-type($min-vw, $max-vw, $h5-min, $h5-max);
-  font-weight: 400;
+  font-weight: 200;
   font-style: italic;
 }
 
@@ -91,6 +89,7 @@
   display: inline-block;
   position: relative;
   z-index: 10;
+  margin-top: 1em;
 }
 
 .site-logo-img {
