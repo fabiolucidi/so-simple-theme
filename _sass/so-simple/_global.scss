@@ -349,14 +349,12 @@
 
 .commit {
   margin-top: 2em;
-
-  span {
-    margin-bottom: 1em;
-    text-align: center;
-    font-family: $base-font-family;
-    font-size: 0.75rem;  
-    padding: 0.5em 0.5em;
-    text-decoration: none;
+  margin-bottom: 1em;
+  text-align: center;
+  font-family: $base-font-family;
+  font-size: 0.75rem;
+  padding: 0.5em 0.5em;
+  text-decoration: none;
   }
 
   a {
