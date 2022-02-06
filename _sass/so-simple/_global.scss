@@ -45,7 +45,7 @@
     display: block;
     padding: 0.5em 0.5em;
     text-decoration: none;
-    color: #c40000;
+    color: $fabio-red;
   }
 
   @include breakpoint($medium) {
@@ -344,5 +344,24 @@
       padding-left: 0.5rem;
       list-style-type: lower-roman;
     }
+  }
+}
+
+.commit {
+  span {
+    margin-bottom: 1em;
+    text-align: center;
+    font-family: $base-font-family;    
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+  }
+
+  a {
+    display: inline-block;
+    color: $fabio-red;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px dotted transparent;
   }
 }
